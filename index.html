@@ -162,3 +162,8 @@
 
 </body>
 </html>
+// ফর্ম সাবমিট হলে redirect করো
+.then(data => {
+  document.getElementById("metaForm").reset();
+  window.location.href = "success.html"; // ✅ এখানে redirect
+})
